@@ -1,0 +1,75 @@
+.container {
+  overflow-y: auto;
+  max-width: 50rem;
+  background: linear-gradient(
+    #9cc0e3 30%,
+    #0a66c2 75%,
+    #004182 100%
+    
+  );
+  box-shadow: 4px 2px 5px 2px rgba(186, 186, 186, 0.878);
+  border-radius: 0.4rem;
+  min-height: 100vh;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+}
+
+.post{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  word-break: break-word;
+  margin-bottom: 1rem;
+}
+
+.button{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 1rem;
+  font-family: var(--type-first);
+  cursor: pointer;
+  border: none;
+  background: #0a66c2;
+  color: #eee;
+  border-radius: 0.4rem;
+  min-width: 5rem;
+  padding: 0.8rem 0.8rem;
+  box-sizing: border-box;
+  transition: 0.1s;
+}
+
+.button:hover,
+.button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #9cc0e3, 0 0 0 4px #0a66c2;
+}
+
+.add{
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  font-size: 1rem;
+  font-family: var(--type-first);
+  cursor: pointer;
+  border: none;
+  background: #0a66c2;
+  color: #eee;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  font-size: 2rem;
+  box-sizing: border-box;
+  transition: 0.1s;
+}
+
+.add:hover,
+.add:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #9cc0e3, 0 0 0 4px #0a66c2;
+}

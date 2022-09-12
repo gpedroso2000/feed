@@ -1,0 +1,22 @@
+.login{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
+  gap: 2rem;
+}
+
+.login::before{
+  content: '';
+  display: block;
+  background: linear-gradient(
+  #09223b 0%,
+  #004182 30%,
+  #0a66c2 60%,
+  #9cc0e3 100%
+);
+}
+
+.forms{
+  max-width: 30rem;
+  padding: 1rem;
+}
