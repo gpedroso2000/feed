@@ -53,7 +53,6 @@ export const UserStorage = ({ children }) => {
     })
 
     const response = await fetch(url, options)
-    console.log(response.ok)
     if (response.ok) {
       alert('Registered user successful!')
     } else {

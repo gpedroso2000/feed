@@ -8,7 +8,7 @@ const Modal = ({ setModal, fetchPosts }) => {
   const { token } = React.useContext(UserContext)
 
   function handleClick(event) {
-    if (event.target.className === 'Modal_container__vh7RR') {
+    if (event.target.id === 'container') {
       setModal(false)
     }
   }
@@ -31,7 +31,7 @@ const Modal = ({ setModal, fetchPosts }) => {
   }
 
   return (
-    <div className={styles.container} onClick={handleClick}>
+    <div id="container" className={styles.container} onClick={handleClick}>
       <div className={styles.modal}>
         <textarea
           value={comment}
